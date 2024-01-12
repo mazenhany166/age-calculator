@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f7ff; /* Light blue background color */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease; /* Smooth background color transition */
+}
+
+.container {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Smooth transform transition on hover */
+}
+
+.container:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input {
+  padding: 12px; /* Increased padding */
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Increased font size */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth box shadow transition */
+}
+
+input:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.7); /* Highlight box shadow on focus */
+}
+
+button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Slightly rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
